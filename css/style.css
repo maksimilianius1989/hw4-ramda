@@ -7,26 +7,17 @@ body {
     font-family: 'Roboto', sans-serif;
     width: 100%;
     font-weight: 400;
-
 }
 
 .header {
-
-}
-
-.container {
     max-width: 1280px;
     margin: 0 auto;
 }
 
 .logo {
-    display: flex;
-    align-items: flex-end;
     font-size: 80px;
-    line-height: 94px;
+    line-height: 150px;
     text-decoration: none;
-    padding-top: 63px;
-    padding-bottom: 40px;
     color: #000000;
 }
 
@@ -34,33 +25,25 @@ body {
     color: #4BCAFF;
 }
 
-.nav-top{
+.nav-top {
     background-color: #35444F;
-
+    display: flex;
+    justify-content: center;
 }
 
 .menu-top {
     display: flex;
-    flex-direction: row;
-    height: 69px;
     justify-content: center;
     max-width: 1200px;
 }
 
-
-
 .menu-item-top {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 18px;
-    border-right: 1px solid #FFFFFF;
-
 }
 
-.menu-item-top:nth-child(1) {
+.menu-link:nth-child(1) {
     border-left: 1px solid #FFFFFF;
 }
-
 
 .menu-link {
     justify-content: center;
@@ -69,17 +52,13 @@ body {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-
-
-
+    padding: 24px;
+    border-right: 1px solid #FFFFFF;
 }
-
 
 .menu-item-top:hover {
     background: #222F3A;
 }
-
-
 
 .main {
     max-width: 1280px;
@@ -98,23 +77,25 @@ body {
     justify-content: space-around;
     border: 1px solid #000000;
     width: 344px;
-    height: 399px;
-
 }
 
-.menu-link-left{
+.menu-link-left:hover {
+    background-color: #f2f2f2;
+    padding-left: 44px;
+}
+
+.menu-link-left {
     text-decoration: none;
     font-size: 27px;
     line-height: 27px;
     color: #485863;
-    padding-left: 44px;
-    padding-bottom: 30px;
+    display: block;
+    padding: 20px;
 }
 
 .image {
     width: 885px;
     height: 529px;
-
 }
 
 .image-ramda {
@@ -136,11 +117,10 @@ body {
 .text {
     width: 885px;
     height: 120px;
-
 }
 
 p {
-   padding-top: 37px;
+    padding-top: 37px;
     color: #2C2C2C;
     font-size: 18px;
     line-height: 24px;
@@ -154,24 +134,21 @@ p:nth-child(2) {
 .footer {
     max-width: 1280px;
     margin: 0 auto;
-
 }
+
 .footer-inner {
     background-color: rgba(99, 105, 110, 0.48);
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-inner-info {
     display: flex;
-    width: 875px;
-    height: 69px;
-    justify-content: space-between;
 
 }
 
 .info {
-
-    padding-top: 20px;
-    padding-bottom: 21px;
+    margin: 20px;
     font-size: 28px;
     line-height: 28px;
 }
@@ -184,12 +161,4 @@ p:nth-child(2) {
 .info-menu-link:hover {
     color: #3181A6;
     border-bottom: 1px solid #3181A6;
-}
-
-.info-copy {
-    display: flex;
-
-    font-size: 24px;
-    line-height: 24px;
-    justify-content: flex-end;
 }
